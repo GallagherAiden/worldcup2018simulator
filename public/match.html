@@ -1,0 +1,69 @@
+<html ng-app="ionicApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <title>World Cup Simulator</title>
+
+    <link href="https://code.ionicframework.com/nightly/css/ionic.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <script src="https://code.ionicframework.com/nightly/js/ionic.bundle.js"></script>
+
+  </head>
+<body ng-controller="MyCtrl" onload="loadTasks();">
+
+    <ion-header-bar class="bar-positive">
+      <h1 class="title">World Cup Simulator - Play Match</h1>
+    </ion-header-bar>
+
+    <ion-content>
+  <div class="header" id="header">
+
+  </div>
+    <div class="row">
+  <div class="column" id="homeout">
+
+  </div>
+  <div class="column" id=""></div>
+  <div class="column" id="awayout">
+
+  </div><br><br>
+</div>
+  <div class="row">
+  <div class="column" id="hometeam">
+
+  </div>
+  <div class="column" id="pitch">
+
+      </canvas>
+
+  </div>
+  <div class="column" id="awayteam">
+
+  </div>
+</div>
+<div class="row">
+<div class="column">
+
+</div>
+<div class="column" id="stats">
+
+</div>
+<div class="column">
+
+</div>
+</div><br>
+<div class="header" id="output">
+
+</div>
+<div class="footer">
+  <button onclick="simulateMatch()">Quick Match</button>
+  <button onclick="watchMatch()">Watch Match</button>
+</div>
+<script src="js/match.js"></script>
+</ion-content>
+<div class = "bar bar-footer bar-positive">
+<h1 class = "title"><div class="myFooter"><a href="home.html">Home</a> <a href="info.html">Statistics</a> <a href="about.html">About</a></div></h1>
+</div>
+</body>
+</html>

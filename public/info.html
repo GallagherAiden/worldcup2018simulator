@@ -1,0 +1,32 @@
+<html ng-app="ionicApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <title>World Cup Simulator</title>
+
+    <link href="https://code.ionicframework.com/nightly/css/ionic.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/info.css">
+    <script src="https://code.ionicframework.com/nightly/js/ionic.bundle.js"></script>
+
+  </head>
+<body ng-controller="MyCtrl" onload="loadStats();">
+
+    <ion-header-bar class="bar-positive">
+      <h1 class="title">World Cup Simulator - Ratings</h1>
+    </ion-header-bar>
+
+    <ion-content>
+      <div id="pratings">
+      	<h2 style="text-align:center;">Search for a team of player to see their ratings</h2>
+      <input type="text" id="myInput" onkeyup="myPlayers()" placeholder="Search for players..">
+      <ul id="myUL">
+
+      </ul>
+<script src="js/info.js"></script>
+</ion-content>
+<div class = "bar bar-footer bar-positive">
+<h1 class = "title"><div class="myFooter"><a href="home.html">Home</a> <a href="info.html">Statistics</a> <a href="about.html">About</a></div></h1>
+</div>
+</body>
+</html>

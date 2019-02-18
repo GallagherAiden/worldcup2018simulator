@@ -1,0 +1,10 @@
+.block {
+  position: fixed;
+  left: 25%;
+  width:50%;
+  text-align: center;
+}
+
+.myFooter {
+  word-spacing: 15px;
+}

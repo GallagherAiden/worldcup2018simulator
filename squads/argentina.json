@@ -1,0 +1,373 @@
+{
+  "name": "Argentina",
+  "rating": "88",
+  "players": [{
+    "position": "GK",
+    "name": "Nahuel Guzman",
+    "rating": 42,
+    "skill": {
+      "passing": 35,
+      "shooting": 16,
+      "tackling": 12,
+      "saving": 78,
+      "agility": 70,
+      "strength": 78,
+      "penalty_taking": 12,
+      "jumping": 248
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "GK",
+    "name": "Willy Caballero",
+    "rating": 34,
+    "skill": {
+      "passing": 31,
+      "shooting": 17,
+      "tackling": 13,
+      "saving": 79,
+      "agility": 39,
+      "strength": 69,
+      "penalty_taking": 16,
+      "jumping": 243
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "GK",
+    "name": "Franco Armani",
+    "rating": 34,
+    "skill": {
+      "passing": 22,
+      "shooting": 16,
+      "tackling": 15,
+      "saving": 77,
+      "agility": 36,
+      "strength": 79,
+      "penalty_taking": 20,
+      "jumping": 254
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CB",
+    "name": "Gabriel Mercado",
+    "rating": 70,
+    "skill": {
+      "passing": 68,
+      "shooting": 58,
+      "tackling": 79,
+      "saving": 11,
+      "agility": 61,
+      "strength": 82,
+      "penalty_taking": 49,
+      "jumping": 260
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "LB",
+    "name": "Cristian Ansaldi",
+    "rating": 72,
+    "skill": {
+      "passing": 77,
+      "shooting": 58,
+      "tackling": 79,
+      "saving": 13,
+      "agility": 79,
+      "strength": 69,
+      "penalty_taking": 52,
+      "jumping": 256
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CB",
+    "name": "Nicolas Otamendi",
+    "rating": 74,
+    "skill": {
+      "passing": 66,
+      "shooting": 66,
+      "tackling": 85,
+      "saving": 10,
+      "agility": 69,
+      "strength": 83,
+      "penalty_taking": 45,
+      "jumping": 284
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CB",
+    "name": "Federico Fazio",
+    "rating": 63,
+    "skill": {
+      "passing": 57,
+      "shooting": 57,
+      "tackling": 83,
+      "saving": 10,
+      "agility": 29,
+      "strength": 90,
+      "penalty_taking": 33,
+      "jumping": 255
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CB",
+    "name": "Marcos Rojo",
+    "rating": 73,
+    "skill": {
+      "passing": 73,
+      "shooting": 65,
+      "tackling": 78,
+      "saving": 8,
+      "agility": 71,
+      "strength": 80,
+      "penalty_taking": 64,
+      "jumping": 265
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "LB",
+    "name": "Nicolas Tagliafico",
+    "rating": 70,
+    "skill": {
+      "passing": 70,
+      "shooting": 59,
+      "tackling": 78,
+      "saving": 13,
+      "agility": 83,
+      "strength": 62,
+      "penalty_taking": 46,
+      "jumping": 266
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "LM",
+    "name": "Marcos Acuna",
+    "rating": 73,
+    "skill": {
+      "passing": 78,
+      "shooting": 68,
+      "tackling": 59,
+      "saving": 12,
+      "agility": 84,
+      "strength": 76,
+      "penalty_taking": 71,
+      "jumping": 245
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CB",
+    "name": "Javier Mascherano",
+    "rating": 72,
+    "skill": {
+      "passing": 72,
+      "shooting": 59,
+      "tackling": 82,
+      "saving": 7,
+      "agility": 72,
+      "strength": 74,
+      "penalty_taking": 60,
+      "jumping": 294
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "RW",
+    "name": "Eduardo Salvio",
+    "rating": 67,
+    "skill": {
+      "passing": 75,
+      "shooting": 73,
+      "tackling": 37,
+      "saving": 11,
+      "agility": 86,
+      "strength": 63,
+      "penalty_taking": 60,
+      "jumping": 251
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CDM",
+    "name": "Lucas Biglia",
+    "rating": 74,
+    "skill": {
+      "passing": 81,
+      "shooting": 65,
+      "tackling": 76,
+      "saving": 11,
+      "agility": 76,
+      "strength": 70,
+      "penalty_taking": 72,
+      "jumping": 281
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CM",
+    "name": "Giovani Lo Celso",
+    "rating": 70,
+    "skill": {
+      "passing": 78,
+      "shooting": 67,
+      "tackling": 60,
+      "saving": 10,
+      "agility": 77,
+      "strength": 66,
+      "penalty_taking": 60,
+      "jumping": 257
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CM",
+    "name": "Ever Banega",
+    "rating": 72,
+    "skill": {
+      "passing": 84,
+      "shooting": 63,
+      "tackling": 66,
+      "saving": 10,
+      "agility": 81,
+      "strength": 67,
+      "penalty_taking": 67,
+      "jumping": 223
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CAM",
+    "name": "Manuel Lanzini",
+    "rating": 61,
+    "skill": {
+      "passing": 77,
+      "shooting": 66,
+      "tackling": 27,
+      "saving": 13,
+      "agility": 88,
+      "strength": 45,
+      "penalty_taking": 73,
+      "jumping": 285
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CAM",
+    "name": "Maximiliano Meza",
+    "rating": 65,
+    "skill": {
+      "passing": 73,
+      "shooting": 71,
+      "tackling": 33,
+      "saving": 10,
+      "agility": 84,
+      "strength": 66,
+      "penalty_taking": 54,
+      "jumping": 284
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "RW",
+    "name": "Angel di Maria",
+    "rating": 71,
+    "skill": {
+      "passing": 81,
+      "shooting": 71,
+      "tackling": 50,
+      "saving": 9,
+      "agility": 92,
+      "strength": 60,
+      "penalty_taking": 73,
+      "jumping": 270
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "RW",
+    "name": "Cristian Pavon",
+    "rating": 62,
+    "skill": {
+      "passing": 69,
+      "shooting": 65,
+      "tackling": 26,
+      "saving": 9,
+      "agility": 91,
+      "strength": 59,
+      "penalty_taking": 59,
+      "jumping": 242
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CF",
+    "name": "Lionel Messi",
+    "rating": 68,
+    "skill": {
+      "passing": 84,
+      "shooting": 84,
+      "tackling": 22,
+      "saving": 8,
+      "agility": 90,
+      "strength": 59,
+      "penalty_taking": 75,
+      "jumping": 218
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CAM",
+    "name": "Paulo Dybala",
+    "rating": 67,
+    "skill": {
+      "passing": 81,
+      "shooting": 81,
+      "tackling": 18,
+      "saving": 6,
+      "agility": 91,
+      "strength": 65,
+      "penalty_taking": 86,
+      "jumping": 262
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "ST",
+    "name": "Gonzalo Higuain",
+    "rating": 66,
+    "skill": {
+      "passing": 67,
+      "shooting": 88,
+      "tackling": 17,
+      "saving": 9,
+      "agility": 75,
+      "strength": 85,
+      "penalty_taking": 70,
+      "jumping": 295
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "ST",
+    "name": "Sergio Aguero",
+    "rating": 67,
+    "skill": {
+      "passing": 71,
+      "shooting": 85,
+      "tackling": 15,
+      "saving": 14,
+      "agility": 86,
+      "strength": 76,
+      "penalty_taking": 83,
+      "jumping": 238
+    },
+    "fitness": 100,
+    "injured": false
+  }]
+}

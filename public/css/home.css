@@ -1,0 +1,40 @@
+body {
+  cursor: url('https://ionicframework.com/img/finger.png'), auto;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto; /* Should be removed. Only for demonstration */
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.myFooter {
+  word-spacing: 15px;
+}

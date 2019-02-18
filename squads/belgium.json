@@ -1,0 +1,341 @@
+{
+  "name": "Belgium",
+  "rating": "77",
+  "players": [{
+    "position": "GK",
+    "name": "Thibaut Courtois",
+    "rating": 38,
+    "skill": {
+      "passing": 27,
+      "shooting": 19,
+      "tackling": 15,
+      "saving": 88,
+      "agility": 61,
+      "strength": 70,
+      "penalty_taking": 27,
+      "jumping": 253
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "GK",
+    "name": "Simon Mignolet",
+    "rating": 34,
+    "skill": {
+      "passing": 27,
+      "shooting": 22,
+      "tackling": 14,
+      "saving": 79,
+      "agility": 34,
+      "strength": 72,
+      "penalty_taking": 41,
+      "jumping": 266
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "GK",
+    "name": "Koen Casteels",
+    "rating": 37,
+    "skill": {
+      "passing": 29,
+      "shooting": 16,
+      "tackling": 16,
+      "saving": 79,
+      "agility": 50,
+      "strength": 72,
+      "penalty_taking": 20,
+      "jumping": 257
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CB",
+    "name": "Toby Alderweireld",
+    "rating": 73,
+    "skill": {
+      "passing": 74,
+      "shooting": 63,
+      "tackling": 88,
+      "saving": 12,
+      "agility": 60,
+      "strength": 81,
+      "penalty_taking": 60,
+      "jumping": 238
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CB",
+    "name": "Dedryck Boyata",
+    "rating": 61,
+    "skill": {
+      "passing": 60,
+      "shooting": 47,
+      "tackling": 70,
+      "saving": 9,
+      "agility": 45,
+      "strength": 85,
+      "penalty_taking": 13,
+      "jumping": 279
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CB",
+    "name": "Jan Vertonghen",
+    "rating": 75,
+    "skill": {
+      "passing": 74,
+      "shooting": 69,
+      "tackling": 87,
+      "saving": 8,
+      "agility": 62,
+      "strength": 82,
+      "penalty_taking": 68,
+      "jumping": 299
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CB",
+    "name": "Vincent Kompany",
+    "rating": 72,
+    "skill": {
+      "passing": 67,
+      "shooting": 63,
+      "tackling": 84,
+      "saving": 8,
+      "agility": 59,
+      "strength": 88,
+      "penalty_taking": 63,
+      "jumping": 234
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CB",
+    "name": "Thomas Vermaelen",
+    "rating": 71,
+    "skill": {
+      "passing": 74,
+      "shooting": 67,
+      "tackling": 77,
+      "saving": 11,
+      "agility": 60,
+      "strength": 79,
+      "penalty_taking": 62,
+      "jumping": 239
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "RB",
+    "name": "Thomas Meunier",
+    "rating": 77,
+    "skill": {
+      "passing": 79,
+      "shooting": 76,
+      "tackling": 81,
+      "saving": 10,
+      "agility": 63,
+      "strength": 85,
+      "penalty_taking": 65,
+      "jumping": 284
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CM",
+    "name": "Youri Tielemans",
+    "rating": 72,
+    "skill": {
+      "passing": 79,
+      "shooting": 74,
+      "tackling": 68,
+      "saving": 9,
+      "agility": 67,
+      "strength": 71,
+      "penalty_taking": 76,
+      "jumping": 238
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CM",
+    "name": "Axel Witsel",
+    "rating": 76,
+    "skill": {
+      "passing": 77,
+      "shooting": 73,
+      "tackling": 71,
+      "saving": 6,
+      "agility": 82,
+      "strength": 78,
+      "penalty_taking": 81,
+      "jumping": 229
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CAM",
+    "name": "Kevin de Bruyne",
+    "rating": 74,
+    "skill": {
+      "passing": 90,
+      "shooting": 77,
+      "tackling": 50,
+      "saving": 14,
+      "agility": 82,
+      "strength": 73,
+      "penalty_taking": 77,
+      "jumping": 256
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "ST",
+    "name": "Moussa Dembélé",
+    "rating": 60,
+    "skill": {
+      "passing": 53,
+      "shooting": 73,
+      "tackling": 14,
+      "saving": 9,
+      "agility": 77,
+      "strength": 84,
+      "penalty_taking": 82,
+      "jumping": 254
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CB",
+    "name": "Leander Dendoncker",
+    "rating": 73,
+    "skill": {
+      "passing": 77,
+      "shooting": 75,
+      "tackling": 74,
+      "saving": 9,
+      "agility": 57,
+      "strength": 84,
+      "penalty_taking": 44,
+      "jumping": 231
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CM",
+    "name": "Marouane Fellaini",
+    "rating": 72,
+    "skill": {
+      "passing": 69,
+      "shooting": 77,
+      "tackling": 72,
+      "saving": 10,
+      "agility": 49,
+      "strength": 92,
+      "penalty_taking": 64,
+      "jumping": 221
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "LM",
+    "name": "Thorgan Hazard",
+    "rating": 68,
+    "skill": {
+      "passing": 79,
+      "shooting": 68,
+      "tackling": 37,
+      "saving": 8,
+      "agility": 91,
+      "strength": 63,
+      "penalty_taking": 83,
+      "jumping": 220
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "CF",
+    "name": "Dries Mertens",
+    "rating": 64,
+    "skill": {
+      "passing": 78,
+      "shooting": 68,
+      "tackling": 37,
+      "saving": 7,
+      "agility": 94,
+      "strength": 42,
+      "penalty_taking": 79,
+      "jumping": 274
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "LM",
+    "name": "Nacer Chadli",
+    "rating": 68,
+    "skill": {
+      "passing": 73,
+      "shooting": 74,
+      "tackling": 43,
+      "saving": 12,
+      "agility": 65,
+      "strength": 83,
+      "penalty_taking": 76,
+      "jumping": 282
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "LF",
+    "name": "Eden Hazard",
+    "rating": 69,
+    "skill": {
+      "passing": 84,
+      "shooting": 76,
+      "tackling": 25,
+      "saving": 10,
+      "agility": 93,
+      "strength": 67,
+      "penalty_taking": 86,
+      "jumping": 232
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "ST",
+    "name": "Michy Batshuayi",
+    "rating": 63,
+    "skill": {
+      "passing": 55,
+      "shooting": 81,
+      "tackling": 21,
+      "saving": 11,
+      "agility": 78,
+      "strength": 82,
+      "penalty_taking": 67,
+      "jumping": 285
+    },
+    "fitness": 100,
+    "injured": false
+  }, {
+    "position": "ST",
+    "name": "Romelu Lukaku",
+    "rating": 69,
+    "skill": {
+      "passing": 74,
+      "shooting": 85,
+      "tackling": 29,
+      "saving": 11,
+      "agility": 62,
+      "strength": 93,
+      "penalty_taking": 80,
+      "jumping": 249
+    },
+    "fitness": 100,
+    "injured": false
+  }]
+}

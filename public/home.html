@@ -1,0 +1,134 @@
+<html ng-app="ionicApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <title>World Cup Simulator</title>
+
+    <link href="https://code.ionicframework.com/nightly/css/ionic.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <script src="https://code.ionicframework.com/nightly/js/ionic.bundle.js"></script>
+
+  </head>
+  <body ng-controller="MyCtrl">
+
+    <ion-header-bar class="bar-positive">
+      <h1 class="title">World Cup Simulator - Team Selection</h1>
+    </ion-header-bar>
+
+    <ion-content>
+      <div class="header">
+<select id="team1" style="font-size:10px;">
+            <option team="none"></option>
+  <option team="argentina">Argentina</option>
+  <option team="australia">Australia</option>
+  <option team="belgium">Belgium</option>
+  <option team="brazil">Brazil</option>
+  <option team="colombia">Colombia</option>
+  <option team="costarica">Costa Rica</option>
+  <option team="croatia">Croatia</option>
+  <option team="denmark">Denmark</option>
+    <option team="england">England</option>
+  <option team="egypt">Egypt</option>
+  <option team="france">France</option>
+  <option team="germany">Germany</option>
+  <option team="iceland">Iceland</option>
+  <option team="iran">Iran</option>
+  <option team="japan">Japan</option>
+  <option team="mexico">Mexico</option>
+  <option team="morocco">Morocco</option>
+  <option team="nigeria">Nigeria</option>
+  <option team="panama">Panama</option>
+  <option team="peru">Peru</option>
+  <option team="poland">Poland</option>
+  <option team="portugal">Portugal</option>
+  <option team="russia">Russia</option>
+  <option team="saudiarabia">Saudi Arabia</option>
+  <option team="senegal">Senegal</option>
+  <option team="serbia">Serbia</option>
+  <option team="southkorea">South Korea</option>
+  <option team="spain">Spain</option>
+  <option team="sweden">Sweden</option>
+  <option team="switzerland">Switzerland</option>
+  <option team="tunisia">Tunisia</option>
+  <option team="uruguay">Uruguay</option>
+</select><select id="team2" style="font-size:10px;">
+  <option team="none"></option>
+  <option team="argentina">Argentina</option>
+  <option team="australia">Australia</option>
+  <option team="belgium">Belgium</option>
+  <option team="brazil">Brazil</option>
+  <option team="colombia">Colombia</option>
+  <option team="costarica">Costa Rica</option>
+  <option team="croatia">Croatia</option>
+  <option team="denmark">Denmark</option>
+    <option team="england">England</option>
+  <option team="egypt">Egypt</option>
+  <option team="france">France</option>
+  <option team="germany">Germany</option>
+  <option team="iceland">Iceland</option>
+  <option team="iran">Iran</option>
+  <option team="japan">Japan</option>
+  <option team="mexico">Mexico</option>
+  <option team="morocco">Morocco</option>
+  <option team="nigeria">Nigeria</option>
+  <option team="panama">Panama</option>
+  <option team="peru">Peru</option>
+  <option team="poland">Poland</option>
+  <option team="portugal">Portugal</option>
+  <option team="russia">Russia</option>
+  <option team="saudiarabia">Saudi Arabia</option>
+  <option team="senegal">Senegal</option>
+  <option team="serbia">Serbia</option>
+  <option team="southkorea">South Korea</option>
+  <option team="spain">Spain</option>
+  <option team="sweden">Sweden</option>
+  <option team="switzerland">Switzerland</option>
+  <option team="tunisia">Tunisia</option>
+  <option team="uruguay">Uruguay</option>
+</select>
+<br><button onclick="selectTeam()">Select Team</button>
+<div id="instructions"></div>
+</div>
+<div class="row" style="font-size:10px;">
+  <div class="column">
+    <div id="home"></div>
+  <div id="team1player1"></div>
+  <div id="team1player2"></div>
+  <div id="team1player3"></div>
+  <div id="team1player4"></div>
+  <div id="team1player5"></div>
+  <div id="team1player6"></div>
+  <div id="team1player7"></div>
+  <div id="team1player8"></div>
+  <div id="team1player9"></div>
+  <div id="team1player10"></div>
+  <div id="team1player11"></div>
+  <div id="homeButton"></div>
+  </div>
+  <div class="column">
+    <div id="away"></div>
+    <div id="team2player1"></div>
+    <div id="team2player2"></div>
+    <div id="team2player3"></div>
+    <div id="team2player4"></div>
+    <div id="team2player5"></div>
+    <div id="team2player6"></div>
+    <div id="team2player7"></div>
+    <div id="team2player8"></div>
+    <div id="team2player9"></div>
+    <div id="team2player10"></div>
+    <div id="team2player11"></div>
+    <div id="awayButton"></div>
+  </div>
+</div>
+<div class="footer">
+  <button onclick="simMatch()">Simulate Match</button><br>
+</div>
+    </ion-content>
+    <div class = "bar bar-footer bar-positive">
+   <h1 class = "title"><div class="myFooter"><a href="home.html">Home</a> <a href="info.html">Statistics</a> <a href="about.html">About</a></div></h1>
+</div>
+  </body>
+  <script src="js/home.js"></script>
+</html>
