@@ -10,8 +10,6 @@ var http = require("http");
 var footballEngine = require("footballsimulationengine");
 var generateTeam = require("./lib/teamGenerator");
 var prevIterationLog = [];
-var homeVisits = 0;
-var matchesPlayed = 0;
 
 //---create a new express server-------
 var app = express();
@@ -55,12 +53,6 @@ app.all("/stats", function (req, res) {
 app.all("/home.html", function (req, res, next) {
 	homeVisits++;
 	next();
-});
-
-app.all("/aidengdata", function (req, res, next) {
-	console.log("Visits to homepage: " + homeVisits);
-	console.log("Matches Played: " + matchesPlayed);
-	res.send("Visits to homepage: " + homeVisits + ", Matches Played: " + matchesPlayed);
 });
 
 app.post("/getStartPos", function (req, res) {
