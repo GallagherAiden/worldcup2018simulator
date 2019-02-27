@@ -75,7 +75,7 @@ function getMatchWatchSlow() {
 	for (i = 0; i < iterations; i++) {
 		setTimeout(function () {
 			movePlayersWatch();
-		}, 300);
+		}, 3000);
 	}
 }
 

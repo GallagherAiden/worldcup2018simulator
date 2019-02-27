@@ -51,7 +51,6 @@ app.all("/stats", function (req, res) {
 });
 
 app.all("/home.html", function (req, res, next) {
-	homeVisits++;
 	next();
 });
 
@@ -100,7 +99,6 @@ app.post("/startSecondHalf", function (req, res) {
 app.post("/movePlayers", function (req, res) {
 	var matchInput = JSON.parse(req.body.matchjson);
 	var iterations = req.body.iterations;
-	matchesPlayed += parseInt(iterations);
 	var iterationJSON = {
 		"matchjson": matchInput
 	};

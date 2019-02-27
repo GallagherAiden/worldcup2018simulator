@@ -11,7 +11,7 @@
 		"async": "^2.6.0",
 		"cheerio": "^1.0.0-rc.2",
 		"cookie-parser": "^1.4.3",
-		"footballsimulationengine": "^2.1.2",
+		"footballsimulationengine": "^2.2.1",
 		"request": "^2.86.0"
 	},
 	"repository": {},
